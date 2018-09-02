@@ -15,6 +15,7 @@
 		6CB65BB3212F415100320E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB65BB1212F415100320E59 /* LaunchScreen.storyboard */; };
 		6CB65BBE212F415200320E59 /* alarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB65BBD212F415200320E59 /* alarmTests.swift */; };
 		6CB65BC9212F415200320E59 /* alarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB65BC8212F415200320E59 /* alarmUITests.swift */; };
+		6CB65BD7212F634200320E59 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB65BD6212F634200320E59 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6CB65BC4212F415200320E59 /* alarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB65BC8212F415200320E59 /* alarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmUITests.swift; sourceTree = "<group>"; };
 		6CB65BCA212F415200320E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB65BD6212F634200320E59 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				6CB65BA6212F414A00320E59 /* AppDelegate.swift */,
 				6CB65BA8212F414A00320E59 /* FirstViewController.swift */,
+				6CB65BD6212F634200320E59 /* City.swift */,
 				6CB65BAA212F414A00320E59 /* SecondViewController.swift */,
 				6CB65BAC212F414A00320E59 /* Main.storyboard */,
 				6CB65BAF212F415100320E59 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CB65BAB212F414A00320E59 /* SecondViewController.swift in Sources */,
+				6CB65BD7212F634200320E59 /* City.swift in Sources */,
 				6CB65BA7212F414A00320E59 /* AppDelegate.swift in Sources */,
 				6CB65BA9212F414A00320E59 /* FirstViewController.swift in Sources */,
 			);
